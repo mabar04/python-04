@@ -1,3 +1,8 @@
+"""
+Creates a new archive file named 'new_discovery.txt',
+writes three preservation entries, and prints the
+archive creation process to the terminal.
+"""
 
 if __name__ == "__main__":
     try:

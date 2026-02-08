@@ -1,3 +1,8 @@
+"""
+Demonstrates secure file handling using the `with` statement.
+The program reads classified data and writes new security
+information while ensuring the file is automatically closed.
+"""
 
 if __name__ == "__main__":
     print("=== CYBER ARCHIVES - VAULT SECURITY SYSTEM ===\n")
@@ -13,4 +18,4 @@ if __name__ == "__main__":
             print("Vault automatically sealed upon completion\n")
             print("All vault operations completed with maximum security.")
     except FileNotFoundError:
-        print("Error: File do not exists")
+        print("ERROR: Classified vault not found.")
